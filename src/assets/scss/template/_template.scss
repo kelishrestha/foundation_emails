@@ -1,11 +1,11 @@
 // These are the styles to make some of the templates look extra nice.
 // Feel free to remove these styles for production!
 
-// Body Styles 
+// Body Styles
 body,
-html, 
+html,
 .body {
-  background: #f3f3f3 !important;
+  font-family: 'Work Sans', sans-serif !important;
 }
 
 .container.header {
@@ -31,7 +31,7 @@ html,
 }
 
 .header .wrapper-inner {
-  padding: 20px;
+  padding: 0px !important;
 }
 
 .header .container {
@@ -54,6 +54,90 @@ table.button.google table td {
   border-color: #DB4A39;
 }
 
+.footer {
+  background-color: #5B616A;
+}
+
+.footer.text-color {
+  color: #C7CFD9;
+}
+
+p {
+  line-height: 30px !important;
+}
+
+.header {
+  background: #1B697D;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.header .wrapper-inner {
+  padding: 20px; /*controls the height of the header*/
+}
+
+.header .container {
+  background: #1B697D;
+}
+
 .wrapper.secondary {
   background: #f3f3f3;
+}
+
+.footer-explain-text{
+  font-size: 12px !important;
+  line-height: 20px !important;
+}
+
+.section-breaker {
+  color: #dee0e1;
+  width: 95%;
+}
+
+table.button table td a{
+  margin: 16px !important;
+  width: 250px;
+  text-align: center;
+}
+
+table.container {
+  background: #ffffff !important;
+}
+
+td.large-12.first, th.large-12.first {
+  padding-left: 32px !important;
+}
+
+td.large-12.last, th.large-12.last {
+  padding-right: 32px !important;
+}
+
+body, table.body, td, th {
+  line-height: 1.5 !important;
+}
+
+table.container {
+  border-collapse: collapse;
+  border-radius: 12px !important;
+  overflow: hidden;
+}
+
+table.button table td a {
+  font-weight: normal !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Serif Pro', serif !important;
+}
+
+small {
+  line-height: 20px;
+  color: #C7CFD9;
 }
